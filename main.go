@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	discord, err := discordgo.New("Bot " + "OTkzMDk3Nzk2NTQ0NjM0OTUw.GCCnOf.dL4Bz_fcSKOTVmvaywfv1WAVvzp16DcZ0MSWC4")
+	discord, err := discordgo.New("Bot " + "")
 	if err != nil {
 		log.Fatalln(err)
 	}
